@@ -1,0 +1,56 @@
+{
+  "spaces": [
+    {
+      "id": 1,
+      "name": "Community Center",
+      "type": "meeting",
+      "description": "A place for village meetings and discussions",
+      "capacity": 30,
+      "features": [
+        "Round table for discussions",
+        "Presentation area",
+        "Voice amplification system"
+      ],
+      "models": {
+        "main_building": "models/buildings/community_center.bam",
+        "table": "models/furniture/round_table.bam",
+        "chair": "models/furniture/basic_chair.bam"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Village Market",
+      "type": "market",
+      "description": "Buy and sell goods with other villagers",
+      "capacity": 100,
+      "features": [
+        "Market stalls",
+        "Goods display areas",
+        "Currency exchange point"
+      ],
+      "models": {
+        "main_area": "models/areas/market_square.bam",
+        "stall": "models/furniture/market_stall.bam",
+        "goods": "models/items/market_goods.bam"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Festival Grounds",
+      "type": "festival",
+      "description": "Celebrate festivals and cultural events",
+      "capacity": 200,
+      "features": [
+        "Performance stage",
+        "Dance floor",
+        "Food vendors area",
+        "Decorative elements"
+      ],
+      "models": {
+        "main_grounds": "models/areas/festival_grounds.bam",
+        "stage": "models/furniture/performance_stage.bam",
+        "decorations": "models/decor/festival_decorations.bam"
+      }
+    }
+  ]
+}
